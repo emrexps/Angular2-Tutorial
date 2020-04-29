@@ -19,6 +19,12 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@progress/kendo-angular-common": "^1.0.0",
+    "@progress/kendo-angular-l10n": "^2.0.0",
+    "@progress/kendo-angular-layout": "^4.2.3",
+    "@progress/kendo-theme-bootstrap": "^4.15.0",
+    "@progress/kendo-theme-default": "latest",
+    "c": "^0.1.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

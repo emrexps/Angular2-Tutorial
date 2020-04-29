@@ -1,0 +1,20 @@
+
+
+<div>
+    <form [formGroup]="formdata" (ngSubmit) = "onClickSubmit(formdata.value)" >
+
+     
+       <input type="text" class="fortextbox" name="firstname" placeholder="tfs_firstname" 
+       formControlName="firstname">
+    <br/>
+
+    <input type="text" class="fortextbox" name="lastname" placeholder="tfs_lastname" 
+          formControlName="lastname">
+       <br/>
+
+       
+       <input type="submit"  [disabled] = "!formdata.valid" class="forsubmit" value="kaydet">
+    </form>
+ </div>
+<br/>
+ <button (click)="mymethod()">parent e firstname i gönder</button>

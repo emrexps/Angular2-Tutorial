@@ -1,0 +1,25 @@
+<kendo-tabstrip (tabSelect)="onTabSelect($event)">
+    <kendo-tabstrip-tab [title]="'TFS'" [selected]="true">
+      <ng-template kendoTabContent>
+     <app-tofas  ></app-tofas>
+      </ng-template>
+    </kendo-tabstrip-tab>
+
+
+    <kendo-tabstrip-tab [title]="'PLS'">
+      <ng-template kendoTabContent>
+        <app-polo ></app-polo>
+      </ng-template>
+    </kendo-tabstrip-tab>
+
+
+
+    <kendo-tabstrip-tab [title]="'TDRK'">
+      <ng-template kendoTabContent>
+      </ng-template>
+    </kendo-tabstrip-tab>
+</kendo-tabstrip>
+
+Tofas First Name: {{tofas_firstname}} <br/>
+Polo First Name: {{polo_fistname}}
+      
